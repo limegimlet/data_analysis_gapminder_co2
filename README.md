@@ -14,7 +14,11 @@ For the same reasons, the wrangling into long format & batch-merging of multiple
 
 * **analyze_CO2.ipynb**: Loads `data/final_df.csv` and analyzes first only `CO2_pc`, then `CO2_pc` by region & sub-region, then does multi-variate analyses with variables for energy, income, and standard-of-living.
 
+* **analyze_CO2.html**: HTML export of above notebook.
+
 * **make_df.ipynb**: batch converts csv & xls files into dataframes, cleans them and converts to long format. It then merges them, then does partial-string matching to ensure all countries have values for the region & sub-region columns. Outputs `final_df.csv`.
+
+* **make_df.html**: HTML export of above notebook.
 
 * **/data**:
 
