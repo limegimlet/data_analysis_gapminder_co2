@@ -10,7 +10,7 @@ For the same reasons, the wrangling into long format & batch-merging of multiple
 
 ## File structure
 
-* **/gapminder**:
+**/gapminder**:
 
 * **analyze_CO2.ipynb**: Loads `data/final_df.csv` and analyzes first only `CO2_pc`, then `CO2_pc` by region & sub-region, then does multi-variate analyses with variables for energy, income, and standard-of-living.
 
